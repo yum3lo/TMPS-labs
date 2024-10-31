@@ -188,9 +188,4 @@ shelter.add_animal(new_cat)
 
 ## Conclusions
 
-This project uses 3 design patterns: Singleton, Builder and Factory. The main benefits of using these patterns in this project are:
-- Centralized management (Singleton ensures consistent access to the shelter system)
-- Flexible construction (Builder allows creating detailed animal profiles without constructor complexity)
-- Extensible creation (Factory Method makes it easy to add new animal types)
-
-This project shows how all three patterns work together: the Builder creates the profile, the Factory creates the animal with the profile and the Singleton manages all created animals.
+This project uses 3 design patterns: Singleton, Builder and Factory. The main benefits of using these patterns in this project are centralized management (Singleton ensures consistent access to the shelter system), flexible construction (Builder allows creating detailed animal profiles without constructor complexity) and extensible creation (Factory Method makes it easy to add new animal types). This project shows how all three patterns work together: the Builder creates the profile, the Factory creates the animal with the profile and the Singleton manages all created animals.
