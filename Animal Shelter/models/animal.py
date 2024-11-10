@@ -18,11 +18,11 @@ class Dog(Animal):
     return "Woof"
 
   def get_care_instructions(self):
-    return "Feed twice a day, walk daily, fresh water"
+    return "Feed twice, Give fresh water, Go for a walk"
 
 class Cat(Animal):
   def make_sound(self):
     return "Meow"
 
   def get_care_instructions(self):
-    return "Feed three times a day, fresh water, clean litter box"
+    return "Feed three times, Give fresh water, Clean litter box"

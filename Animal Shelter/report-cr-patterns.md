@@ -1,13 +1,5 @@
 # Laboratory Work 1: Creational Design Patterns
 
-**MINISTERUL EDUCAȚIEI ȘI CERCETĂRII AL REPUBLICII MOLDOVA**  
-**UNIVERSITATEA TEHNICĂ A MOLDOVEI**  
-**FACULTATEA CALCULATOARE, INFORMATICĂ ȘI MICROELECTRONICĂ**
-
-*Elaborated: Cucos, Maria*  
-*st. gr. FAF-221*  
-*Chișinău, 2024*
-
 ## Task
 Define the main involved classes and think about what instantiation mechanisms are needed. Implement at least 3 creational design patterns in your project.
 

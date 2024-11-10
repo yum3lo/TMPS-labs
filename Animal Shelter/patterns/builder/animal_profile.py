@@ -8,6 +8,7 @@ class AnimalProfile:
     self.medical_history = []
     self.behavior_notes = []
     self.special_needs = []
+    self.medication = []
     self.vaccination_status = {}
 
 class AnimalProfileBuilder:
@@ -22,6 +23,10 @@ class AnimalProfileBuilder:
 
   def add_medical_history(self, condition: str):
     self.profile.medical_history.append(condition)
+    return self
+
+  def add_medication(self, med: str, schedule: str):
+    self.profile.medication.append(f"{medication} {schedule}")
     return self
 
   def add_behavior_notes(self, note: str):
