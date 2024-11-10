@@ -1,4 +1,6 @@
 # Laboratory Work 2: Structural Design Patterns
+## Author: Cucoș Maria
+----
 
 ## Task
 By extending your project, implement at least 3 structural design patterns in your project:
@@ -6,7 +8,10 @@ By extending your project, implement at least 3 structural design patterns in yo
 * The object creation mechanisms/patterns can now be buried into the functionalities instead of using them into the client.
 * There should only be one client for the whole system.
 
-I implemented the Adapter, Facade and Decorator patterns in the previous python project that manages a shelter catalog.
+## Used Design Patterns:
+* Adapter
+* Decorator
+* Facade
 
 ## Implementation
 
@@ -101,7 +106,20 @@ shelter_facade.add_animal(
   )
 ```
 
-This proves how the structural patterns used - `Adapter`, `Decorator` and `Facade` - work together to simplify the main flow of the application. The only client in this project is the `main.py` file that interacts with the facade and can request things from it. 
+This proves how the structural patterns used - `Adapter`, `Decorator` and `Facade` - work together to simplify the main flow of the application. The only client in this project is the `main.py` file that interacts with the facade and can request things from it. Here is an example of the output:
+
+```python
+Email sent to staff@shelter.com: 
+Name: Mia
+Species: Cat
+Medical History: Vaccinated, Needs daily medication
+Vaccinations:
+  - Rabies: 2021-02-01
+  - FVRCP: 2023-06-12
+Behavior Notes: Friendly
+Care Instructions: Feed three times, Give fresh water, Clean litter box, Give 
+Painkillers every 12 hours, Give Antibiotics every 24 hours, Grain-free diet 
+```
 
 ## Conclusions
 
