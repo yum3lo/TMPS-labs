@@ -108,7 +108,7 @@ shelter_facade.add_animal(
 
 This proves how the structural patterns used - `Adapter`, `Decorator` and `Facade` - work together to simplify the main flow of the application. The only client in this project is the `main.py` file that interacts with the facade and can request things from it. Here is an example of the output:
 
-```python
+```
 Email sent to staff@shelter.com: 
 Name: Mia
 Species: Cat
