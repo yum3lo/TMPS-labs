@@ -7,10 +7,9 @@ class AnimalFactory(ABC):
   def create_animal(self, profile: AnimalProfile) -> Animal:
     pass
 
-class DogFactory(AnimalFactory):
+class GeneralFactory(AnimalFactory):
+  def __init__(self, species: str):
+    self.species = species
+    
   def create_animal(self, profile: AnimalProfile) -> Animal:
-    return Dog(profile)
-
-class CatFactory(AnimalFactory):
-  def create_animal(self, profile: AnimalProfile) -> Animal:
-    return Cat(profile)
+    return self.species(profile)

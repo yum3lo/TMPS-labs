@@ -16,6 +16,7 @@ class MedicalCareDecorator(AnimalDecorator):
     super().__init__(animal)
     self.medication = medication
     self.schedule = schedule
+    self.animal.profile.medication.append(f"{self.medication} {self.schedule}")
 
   def get_care_instructions(self):
     base_instructions = super().get_care_instructions()
